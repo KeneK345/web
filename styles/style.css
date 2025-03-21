@@ -1,3 +1,23 @@
+:root{
+    --backColor:rgba(255, 255, 255, 0.75);
+    --txtColor: rgba(0,0,0,1);
+    --buttonColor: rgba(120,120,120,1);
+    --buttonTxtColor: rgba(255,255,255,1);
+}
+.darkMode:root{
+    --backColor: rgba(255,255,255,0.25);
+    --txtColor: rgba(200,200,200,1);
+    --buttonColor: rgba(190,190,190,1);
+    --buttonTxtColor: rgba(0,0,0,1)
+}
 header{
     text-align: center;
 };
+body{
+    background-color: var(--backColor);
+    color: var(--txtColor)
+}
+button{
+    background-color: var(--buttonColor);
+    color: var(--buttonTxtColor)
+}
